@@ -1,0 +1,24 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+}
+.box{
+    /* width: 100%;  */
+    height: 100%;
+     outline: 1px solid rgb(2, 2, 14);
+    
+    display: flex;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+.box > p{
+ /* flex: 1; */
+ background-color: blue;
+/* equivilent of flex:1; property
+ flex-shrink: 1 ;
+ flex-grow: 1;
+ flex-basis: 0; */
+ flex-shrink: 1 ;
+ flex-basis: 100%; 
+
+}
